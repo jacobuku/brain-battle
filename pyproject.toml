@@ -1,0 +1,12 @@
+[project]
+name = "brain-battle"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cognee-integration-strands>=0.2.0",
+    "fastembed>=0.8.0",
+    "python-dotenv>=1.2.3",
+    "strands-agents[anthropic]>=1.56.0",
+]
