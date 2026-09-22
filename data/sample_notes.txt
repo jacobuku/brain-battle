@@ -1,0 +1,7 @@
+# SAMPLE DATA
+
+called priya from cognee about the memory dedup bug she hit tuesday, walked her through the litellm custom-provider workaround i used to dodge the anthropic_tools/openai mode crash. she's blocked until she can repro it on her end. promised to send her my litellm workaround writeup by wed morning, also said i'd ping her if i find the upstream instructor issue link.
+
+quick call with diego at fenwick systems, their onboarding flow started throwing 500s right after the last deploy. he thinks it's the new webhook retry logic. told him i'd pull our sentry logs and send them over by thursday eod. also promised to loop marta (their backend lead) into the thread so she's not blindsided monday morning.
+
+talked to aunt carol about thanksgiving, she's hosting again this year. told her i'd send the flight itinerary once i book it, said friday at the latest. also promised to call grandma this weekend since she's been asking why we haven't talked in a while.

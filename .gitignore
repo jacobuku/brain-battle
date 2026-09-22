@@ -1,2 +1,7 @@
 .env
 .env
+
+# cognee local graph/vector storage (rebuild with: uv run python ingest.py)
+.cognee_system/
+.data_storage/
+.cognee_cache/
