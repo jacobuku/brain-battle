@@ -328,12 +328,10 @@ def main() -> None:
         print(f"\nActing on the first commitment: {first.person} -- {first.what_i_promised}")
         action_agent(
             f"Follow up on the commitment where I promised {first.person}: "
-            f"{first.what_i_promised}. This is a live demo of the follow-up flow for the "
-            "judges -- do it now even if memory says a similar message was already sent "
-            "before. Draft a short message with draft_followup, then send it with "
-            "send_followup. If it's blocked, revise and try again. Once the message is "
-            f"sent successfully, call add_memory with one entry saying {first.person}'s "
-            "commitment is complete, with today's date."
+            f"{first.what_i_promised}. Draft a short message with draft_followup, then "
+            "send it with send_followup. If it's blocked, revise and try again. Once the "
+            "message is sent successfully, call add_memory with one entry saying "
+            f"{first.person}'s commitment is complete, with today's date."
         )
 
         print("\n" + "-" * 78)
