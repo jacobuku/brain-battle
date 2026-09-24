@@ -53,7 +53,7 @@ at.
   scraping the event page.
 - **Anthropic Claude Sonnet** -- the model behind every agent here.
 
-## Security design
+## Security design  ##
 
 The agent that reads the web (`fetch_page`, via Bright Data) and the agent
 that can write to long-term memory (`add_memory`) are two separate `Agent`
